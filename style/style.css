@@ -1,0 +1,1032 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Shabnam";
+    src: url(../source/font/Shabnam-FD.woff2);
+}
+
+
+body {
+    font-family: "Shabnam";
+    direction: rtl;
+    font-size: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* header */
+
+.container-nav {
+    height: 130vh;
+    background-image: url("../source/image/header.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center -80px;
+}
+
+
+.header-nav {
+    position: fixed;
+    top: 0;
+    z-index: 10001;
+    border: solid 1px rgb(224, 224, 224);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: .6rem 8rem;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: 0 16px 12px -10px rgba(60,64,67,.1) */
+}
+
+.register {
+    border: solid 1px #008FFF;
+    padding: .5rem .6rem;
+    color: #008FFF;
+    border-radius: 2rem;
+}
+
+.register:hover {
+    background-color: rgba(0, 145, 255, 0.041);
+}
+
+.nav-box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 14rem;
+}
+
+.menu {
+    color: #008FFF;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.nav-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+    margin-right: .4rem;
+}
+
+
+.logo-nav {
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-text:hover {
+    color: #008FFF;
+}
+
+
+.text-header {
+    margin-top: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.text-header-two {
+    font-size: 1.5rem;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: .5rem 0;
+}
+
+
+.services-third {
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(4,10,31,.08);
+    padding: 16px;
+}
+
+.services-body {
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(4,10,31,.08);
+    text-align: center;
+    padding: 16px;
+}
+
+.show-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.more-services {
+    background-color: #008FFF;
+    color: #fafafa;
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+}
+
+
+.thirds {
+    display: flex;
+    width: 384px;
+    height: 112px;
+}
+
+
+.third-text {
+    width: 100%;
+    padding-top: .5rem;
+}
+
+.third-one {
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.third-two {
+    color: rgba(4, 10, 31, 0.38);;
+}
+
+.third-one-two {
+    padding-right: 1rem;
+}
+
+.third-three {
+    position: absolute;
+    color: rgb(0, 101, 255);
+    background-color: rgba(0, 102, 255, 0.082);;
+    font-size: 14px;
+    margin-top: 5rem;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+}
+
+.service {
+    width: 168px;
+    height: 112px;
+}
+
+.more-services:hover {
+    background-color: #3F51B5;
+}
+
+/* main */
+
+.main {
+    padding-top: 8rem;
+}
+
+.main-one {
+    text-align: center;
+    line-height: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.main-text-one {
+    font-size: 33px;
+}
+
+.main-text-two {
+    font-size: 19px;
+    color: rgba(4, 10, 31, 0.6);;
+}
+
+.online {
+    padding: 1rem 12rem ;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-one {
+    padding: 3rem 3.8rem;
+    background-color: #fff;
+    box-shadow: 0 2px 16px rgba(4,10,31,.04);
+    border: 1px solid #f5f5f5;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+
+.online-text {
+    padding-right: 1rem;
+    line-height: 2rem;
+}
+
+.online-text-one {
+    padding-bottom: .8rem;
+}
+
+.online-text-two {
+    color: rgba(4, 10, 31, 0.6);;
+}
+
+.main-img-arrow {
+    position: relative;
+    margin: -7rem 12rem;
+}
+
+.img-arrow {
+    width: 48px;
+    height: 208px;
+}
+
+.main-img-arrow-two {
+    position: relative;
+    margin: -7rem 12rem;
+    direction: ltr;
+}
+
+.img-arrow-two {
+    width: 60px;
+    height: 208px;
+}
+
+.background-main {
+    padding-top: 6rem;
+}
+
+.background-main-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.background {
+    width: 344px;
+    height: 512px;
+}
+
+.background-text {
+    line-height: 56px;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.background-text-one {
+    font-size: 33px;
+}
+
+.background-text-two {
+    font-size: 19px;
+    color: rgba(4, 10, 31, 0.6);
+}
+
+.questions {
+    width: 200px;
+    height: 200px;
+    margin-left: 4rem;
+}
+
+.buy {
+    display: flex;
+}
+
+.buy-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 908px;
+    height: 360px;
+    margin-top: -17rem;
+    margin-right: 24rem;
+    padding-right: 3rem;
+}
+
+.buy-img {
+    width: 48px;
+    height: 48px;
+}
+
+.buy-text-main {
+    width: 328px;
+    height: 80px;
+    line-height: 24px;
+    margin-right: 2rem;
+}
+
+.buy-text-main-one {
+    margin-bottom: .5rem;
+}
+
+.buy-text-main-two {
+    color: rgba(4, 10, 31, 0.6);
+    font-size: 1rem;
+}
+
+.icon-main {
+    display: flex;
+    text-align: center;
+    padding-top: 20rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon-img {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-part {
+    color: rgba(4, 10, 31, 0.87);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.line-between {
+    border: none;
+    height: auto;
+    margin: 0 16px;
+    align-self: stretch;
+    width: 2px;
+    background-color: #e0e0e0;
+}
+
+
+.payment-azki-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9rem 0;
+}
+
+.payment-main {
+    display: flex;
+    margin: 2rem;
+    border: 3px solid rgba(35,65,223,.1);
+    background: #fff;
+    box-shadow: 0 97px 39px -70px rgba(4,10,31,.1);
+    border-radius: 2rem;
+    padding: 56px 88px;
+}
+
+.payment-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 260px;
+    background: #2341df;
+    border-radius: 2rem;
+}
+
+.payment {
+    width: 211px;
+    height: 70px;
+}
+
+.payment-text {
+    display: flex;
+    padding: 1rem;
+}
+
+
+.text-payment-main-one {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.text-payment-one {
+    color: rgb(35, 65, 223);
+    font-size: 33px;
+    padding: 0 2rem;
+}
+
+.text-payment-two {
+    color: rgba(4, 10, 31, 0.6);
+    font-size: 19px;
+}
+
+.text-payment-main-two {
+    font-size: 1rem;
+    color: rgba(4, 10, 31, 0.87);
+    padding: 1.8rem;
+}
+
+.text-payment-main-icon {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1.8rem;
+}
+
+.text-icon-payment {
+    width: 32px;
+    height: 32px;
+}
+
+.text-icon {
+    font-size: 14px;
+    margin-right: .5rem;
+}
+
+.payment-box-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    width: 146px;
+    height: 24px;
+}
+
+.payment-part-text {
+    display: flex;
+    align-items: end;
+}
+
+
+.payment-box {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+    width: 190px;
+    height: 40px;
+    background-color: #008FFF;
+    color: rgba(255,255,255,100);
+    cursor: pointer;
+    margin-right: 10rem;
+}
+
+.payment-box-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.payment-box:hover {
+    background-color: #0768b3;
+}
+
+
+.result {
+    margin: 2rem;
+    background-color: rgba(4,10,31,.87);
+    padding: 64px 56px;
+    border-radius: 2rem;
+}
+
+.result-part {
+    display: flex;
+}
+
+.result-img {
+    margin-top: -9.34rem;
+}
+
+.result-text {
+    font-weight: 500;
+    margin-right: 4rem;
+    text-align: center
+}
+
+.result-text-one {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    line-height: 2rem;
+}
+
+.result-text-two {
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    line-height: 32px;
+}
+
+.result-text-description-one {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    color: rgb(35, 180, 255);
+}
+
+.result-text-description-two {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 19px;
+}
+
+.result-text-description-part {
+    display: flex;
+    gap: 3rem;
+    padding-top: 5rem;
+}
+
+.inline-txet {
+    align-items: stretch;
+    background-color: hsla(0,0%,100%,.3);
+    height: auto;
+    width: 3px;
+    border: none;
+}
+
+
+.accident {
+    padding: 0 16px;
+    padding-top: 12rem;
+}
+
+.roadmap-claim-mobile {
+    width: 64px;
+    height: 516px;
+}
+
+.accident-text {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.accident-text-one {
+    font-size: 33px;
+
+}
+
+.accident-text-two {
+    font-size: 19px;
+}
+
+.accident-part {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 3rem;
+}
+
+.accident-part-text {
+    width: 200px;
+    height: 104px;
+    margin: 3rem 0;
+}
+
+.accident-part-text-one {
+    font-size: 16px;
+    color: rgb(0, 143, 255);
+    padding-bottom: .8rem;
+}
+
+.accident-part-text-two {
+    color: rgba(4, 10, 31, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.accident-part-two {
+    padding-top: 3.5rem;
+}
+
+.accident-box-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.accident-box {
+    cursor: pointer;
+    padding: .8rem 3rem;
+    color: #fff;
+    text-align: center;
+    border-radius: .5rem;
+    background-color: #008FFF;
+}
+
+.accident-box:hover {
+    background-color: rgb(0, 100, 178);
+}
+
+.insurance {
+    height: 526px;
+    margin: 6rem 1rem;
+    background: url(../source/image/background.png) no-repeat 100%;
+    border-radius: 2.8rem;
+}
+
+.insurance-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    border-radius: 2rem;
+    height: 521px;
+    background-color:  rgba(4,10,31,.87);
+}
+
+.insurance-part-one {
+    width: 920px;
+    height: 320px;
+}
+
+.insurance-part-text {
+    width: 100;
+    padding: 0 2rem;
+}
+
+.insurance-part-text-one {
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.insurance-part-text-two {
+    padding-top: .8rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.insurance-part-text-bottom {
+    padding-right: 1rem;
+}
+
+.insurance-part-text-three {
+    padding-top: 1.2rem;
+    color: #fff;
+}
+
+.insurance-part-img {
+    width: 256px;
+    height: 304px;
+}
+
+.insurance-part-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.request-box-part {
+    display: flex;
+    align-items: end;
+}
+
+.request-box {
+    padding: .8rem 3.5rem;
+    border-radius: .5rem;
+    color: rgba(255,255,255,100);
+    background-color: #008FFF;
+}
+
+.request-box:hover {
+    background-color: rgb(0, 100, 178);
+}
+
+
+.azki-company {
+    background: #fff;
+    padding: 24px 32px;
+    margin: -5rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 40px 22px -29px rgba(4,10,31,.08);
+}
+
+.azki-company-text {
+    color: rgba(4, 10, 31, 0.87);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.azki-company-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+
+.colleague-company {
+    padding: 15rem 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.colleague-company-txet {
+    color: rgb(66, 66, 66);
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.colleague-company-img-part {
+    display: flex;
+    gap: .8rem;
+}
+
+.colleague-company-img {
+    cursor: pointer;
+}
+
+.customers-text {
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 4rem;
+}
+
+.customers-text-one {
+    font-size: 33px;
+    margin-bottom: 1rem;
+}
+
+.customers-text-two {
+    font-size: 19px;
+}
+
+.customers-box-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.customers-box {
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 16px 24px, rgba(0, 0, 0, 0.08) 0px 8px 10px;
+    border-radius: 16px;
+    background: #fafafa;
+    color: #333
+}
+
+
+.customers-box-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.customers-icon {
+    display: flex;
+}
+
+.customers-box-icon {
+    margin-top: .5rem;
+    width: 24px;
+    height: 24px;
+    color: #FFB300;
+}
+
+.customers-box-icon-one {
+    color: #CFD8DC;
+    margin-top: .5rem;
+    width: 24px;
+    height: 24px;
+}
+
+.customers-box-text-one {
+    font-weight: 700;
+    margin-top: .5rem;
+}
+
+.customer-box-two {
+    background-color: rgba(0, 143, 255, 0.1);
+    color: #008FFF;
+    text-align: center;
+    padding: .2rem 1.5rem;
+    border-radius: 2rem;
+    margin-top: .5rem;
+}
+
+.customers-box-text {
+    text-align: center;
+}
+
+.customer-box-three {
+    padding: 1rem ;
+}
+
+.customers-box-text-two {
+    color: rgb(97, 97, 97);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.types-insurance {
+    margin-top: 135px;
+}
+
+.types-insurance-text {
+    color: rgba(4, 10, 31, 0.87);
+    text-align: center;
+    font-weight: 500;
+    line-height: 60px;
+    padding-top: 124px;
+}
+
+.types-insurance-text-one {
+    font-size: 45px;
+}
+
+.types-insurance-text-two {
+    font-size: 19px;
+}
+
+
+.types-insurance-box-part {
+    margin: 0 auto;
+}
+
+.types-insurance-box {
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 16px 24px rgba(0,0,0,.04), 0 8px 10px rgba(0,0,0,.08);
+}
+
+.types-insurance-box-part {
+    padding: 2rem 4.8rem;
+    cursor: pointer;
+}
+
+.types-insurance-box-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.types-insurance-box-part-text {
+    color: rgba(4, 10, 31, 0.87);
+    line-height: 24px;
+    margin-right: 1rem;
+}
+
+.types-insurance-box-part-text-one {
+    font-weight: 700;
+}
+
+.types-insurance-box-part-text-two {
+    font-weight: 400;
+}
+
+
+.types-insurance-more {
+    display: flex;
+    justify-content: flex-end;
+    color: #008FFF;
+    font-size: 14px;
+    margin-top: 2rem;
+}
+
+.azki-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+}
+
+.azki-info-part {
+    width: 362px;
+    height: 242px;
+}
+
+.azki-logo-part-text {
+    color: rgba(4, 10, 31, 0.87);
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.location {
+    width: 16px;
+    height: 16px;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+.location-part {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    margin-top: 1rem;
+}
+
+.location-text {
+    color: rgba(4, 10, 31, 0.87);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.email-part {
+    display: flex;
+    align-self: center;
+    gap: .2rem;
+    margin-top: 1rem;
+}
+
+.email-logo {
+    width: 16px;
+    height: 16px;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+.email-text {
+    color: rgba(4, 10, 31, 0.87);
+}
+
+.insurances-access-part {
+    display: flex;
+    cursor: pointer;
+    gap: 2rem;
+}
+
+.insurances-part-text-one {
+    color: rgb(35, 65, 223);
+    padding: .5rem;
+}
+
+.insurances-part-text-two:hover {
+    color: rgb(35, 65, 223);
+}
+
+.insurances-part-text-two {
+    color: rgba(4, 10, 31, 0.87);
+    padding: .5rem;
+}
+
+.access-part-text-one {
+    color: rgb(35, 65, 223);
+    padding: .5rem;
+}
+
+.access-part-text-two:hover {
+    color: rgb(35, 65, 223);
+}
+
+.access-part-text-two {
+    color: rgba(4, 10, 31, 0.87);
+    padding: .5rem;
+}
+
+.img-logo-part {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.img-logo-part {
+    margin-right: 1rem;
+}
+
+.img-logo {
+    width: 90px;
+    height: 90px;
+}
+
+
+.footer-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    background: linear-gradient(90.06deg,#0052d4 .05%,#4364f7 54.75%,#6fb1fc 109.45%);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6rem;
+    color: rgb(255, 255, 255);
+}

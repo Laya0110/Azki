@@ -1,0 +1,605 @@
+/* responsive */
+
+@media only screen and (max-width:2560px) {
+    .container {
+        max-width: 1200px;
+      }
+
+    .menu {
+        display: none;
+    }
+
+    .roadmap-claim-mobile {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+      max-width: 960px;
+    }
+    
+    .header-nav {
+        position: fixed;
+        top: 0;
+        z-index: 10001;
+        border: solid 1px rgb(224, 224, 224);
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding: .6rem .5rem;
+    }
+
+    .background {
+        display: none;
+    }
+
+
+    .background-main-one {
+        display: block;
+        text-align: center;
+    }
+
+    .buy-main {
+        display: block;
+        width: 908px;
+        height: 360px;
+        margin: 0;
+    }
+
+    .buy {
+        margin-bottom: 1rem;
+    }
+
+
+    .buy-main {
+        margin-top: -12rem;
+        margin-right: 4rem;
+    }
+
+    .img-arrow {
+        display: none;
+    }
+
+    .img-arrow-two {
+        display: none;
+    }
+
+    .online {
+        margin-bottom: 6rem;
+    }
+
+    .questions {
+        margin-right: 35rem;
+    }
+
+    .payment-img {
+        width: 393px;
+        height: 248px;
+    }
+
+    .payment-main {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border: 3px solid rgba(35,65,223,.1);
+        background: #fff;
+        box-shadow: 0 97px 39px -70px rgba(4,10,31,.1);
+        border-radius: 2rem;
+        padding: 30px 18px;
+    }
+
+    .payment-azki-main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6rem 0;
+    }
+
+    .result-img {
+        width: 344px;
+        height: 337px;
+        margin-top: -8.0rem;
+    }
+
+    .result-text {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .azki-company-img {
+        gap: 2rem;
+    }
+
+    .colleague-company-img {
+        display: none;
+    }
+
+    .customers-box-part {
+        flex-wrap: wrap;
+    }
+
+    .types-insurance-box-one {
+        flex-wrap: wrap;
+    }
+
+    .insurances-access-part {
+        justify-content: center;
+    }
+
+    .img-logo-part {
+        justify-content: center;
+    }
+
+
+}
+  
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .nav-box {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .text-header-one {
+        font-size: 1.8rem;
+    }
+
+    .text-header-two {
+        font-size: 1rem;
+    }
+
+    .services {
+        flex-wrap: wrap;
+    }
+
+    .online-img {
+        width: 112px;
+        height: 112px;
+    }
+
+    .line-between {
+        display: none;
+    }
+
+    .result {
+        margin: 4rem;
+        background-color: rgba(4,10,31,.87);
+        padding: 64px 56px;
+        border-radius: 2rem; 
+    }
+
+    .inline-txet {
+        display: none;
+    }
+
+    .result-text-description-part {
+        flex-wrap: wrap;
+    }
+
+    .icon-main {
+        flex-wrap: wrap;
+    }
+
+    .online {
+        padding: 1rem 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .payment-img {
+        width: 280px;
+        height: 112px;
+        margin: 0 auto;
+    }
+
+
+    .payment-main {
+        display: block;
+        border: 3px solid rgba(35,65,223,.1);
+        background: #fff;
+        box-shadow: 0 97px 39px -70px rgba(4,10,31,.1);
+        border-radius: 2rem;
+        padding: 20px 18px;
+    }
+
+    .payment-azki-main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6rem 0;
+        margin: 2rem;
+    }
+
+    .text-payment-main-one {
+        display: block;
+        font-weight: 500;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .payment-box {
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .text-payment-main-two {
+        font-size: 14px;
+    }
+
+    .text-payment-part {
+        display: none;
+    }
+
+    .payment-box {
+        margin: 0 auto;
+    }
+
+    .result-part {
+        display: block;
+    }
+
+    .result-text-description-part {
+        justify-content: center;
+    }
+
+    .roadmap-claim-mobile {
+        display: block;
+    }
+
+    .accident-part-img {
+        display: none;
+    }
+
+    .accident-part {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 3rem;
+    }
+
+    .accident-box { 
+        width: 50%;
+    }
+
+    .insurance-part-img {
+        display: none;
+    }
+
+    .azki-img-one {
+        width: 40px;
+        height: 40px;
+    }
+
+    .azki-part {
+        display: block;
+    }
+
+    .footer {
+        padding: 0 1rem;
+    } 
+
+    .azki-part {
+        margin-right: rem;
+    }
+
+    .azki-info-part {
+        width: 100%;
+    }
+
+    .img-logo-part {
+        margin-top: 4rem;
+    }
+
+    .services-third {
+        width: 72%;
+    }
+
+
+    .services-body {
+        width: 35%;
+    }
+
+    .third-one-two {
+        padding-right: 2rem;
+    }
+
+    .third-three {
+        width: 67%;
+        text-align: center;
+    }
+
+    .third {
+        width: 48px;
+        height: 48px;
+    }
+
+    .img-service {
+        width: 32px;
+        height: 32px;
+    }
+
+    .service-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .third-one {
+        font-size: 16px;
+        margin-right: 1rem;
+    }
+
+    .third-two {
+        margin: .5rem 0;
+    }
+
+
+
+}
+  
+@media only screen and (max-width: 768px) {
+    .container{
+      max-width: 540px;
+    }
+
+    .main-text-one {
+        font-size: 28px;
+    }
+
+    .main-text-two {
+        font-size: 18px;
+    }
+
+
+    .background-text-one {
+        font-size: 28px;
+    }
+
+    .background-text-two {
+        font-size: 16px;
+    }
+
+    .text-payment-one {
+        font-size: 25px;
+    }
+
+    .text-payment-two {
+        font-size: 16px;
+    }
+
+    .text-payment-main-two {
+        font-size: 16px;
+    }
+
+
+    .payment-part-text {
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+
+    .online {
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .questions {
+        display: none;
+    }
+
+    .buy-main {
+        margin-top: 0;
+        margin-right: 2rem;
+    }
+
+    .text-payment-main-two {
+        font-size: 14px;
+    }
+ 
+    .result-img {
+        width: 216px;
+        height: 224px;
+        margin-top: -6.7rem;
+        text-align: center;
+    }
+
+    .insurance-part-bottom {
+        display: block;
+    }
+
+    .request-box {
+        margin: 3rem auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .azki-company {
+        display: none;
+    }
+
+    .insurance-part-text {
+        width: 100%;
+    }
+
+    .types-insurance-text-one {
+        font-size: 33px;
+    }
+
+    .types-insurance-text-two {
+        font-size: 18px;
+    }
+
+
+
+
+
+}
+  
+@media only screen and (max-width: 576px) {
+    .container{
+      max-width: 100%;
+    }
+
+    .online-text {
+        padding-right: 0;
+        width: 300px;
+        height: 100px;
+        line-height: 1rem;
+    } 
+
+    .thirds {
+        display: block;
+        width: 168px;
+        height: 112px;
+    }
+
+
+    .background-text-two {
+        font-size: 14px;
+    } 
+
+    .buy-text-main {
+        width: 328px;
+        height: 80px;
+        line-height: 18px;
+        margin-right: 1rem;
+    }
+
+    .text-payment-one {
+        font-size: 20px;
+    }
+
+    .text-payment-two {
+        font-size: 14px;
+    }
+
+    .text-payment-main-two {
+        font-size: 14px;
+    }
+
+    .buy-main {
+        margin-top: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .background-text-two {
+        line-height: 35px;
+    }
+
+    .buy-text-main-two {
+        font-size: 14px;
+    }
+
+    .buy-text-main {
+        margin-right: .5rem;
+    }
+
+    .result-text-one {
+        font-size: 16px;
+    }
+
+    .result-text-two {
+        font-size: 25px;
+    }
+
+    .accident-part-two {
+        display: inline-block;
+    }
+
+    .accident-part {
+        flex-wrap: wrap;
+    }
+
+    .accident-part-one {
+        margin-top: -3rem;
+    }
+
+    .accident-part-two {
+        padding-top: 0;
+        padding-right: 6rem;
+        margin-top: -9rem;
+    }
+
+    .roadmap-claim-mobile {
+        margin-top: 4rem;   
+    }
+
+
+    .customers-box-text-two {
+        line-height: 18px;
+    }
+
+    .third-three {
+        display: none;
+    }
+
+    .thirds {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .service-part {
+        display: block;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .third-one {
+        margin-right: 0;
+        font-size: 14px;
+    }
+    
+    .third-two {
+        font: 12px;
+    }
+
+    .accident-box {
+        padding: .8rem 1rem;
+    }
+
+    .types-insurance-box-part {
+        padding: 2rem;
+    }
+
+    .insurance-part-text {
+        padding: 0;
+    } 
+
+
+    .insurance-part {
+        padding: 2rem 1rem;
+    }
+
+    .insurance-part-text-one {
+        font-size: 30px;
+    }
+
+    .insurance-part-text-two {
+        font-size: 16px
+    }
+
+    .insurance-part-text-bottom {
+        font-size: 16px;
+    }
+
+
+ }
